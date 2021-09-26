@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  }
+  
+  #nav {
+      background-color: rgb(255, 166, 83);
+      text-align: right;
+      font-family: Helvetica;
+      padding: 10px; 
+      margin: -10px;
+  }
+  
+  #nav a {
+      color: white;
+      font-size: 18px;
+      
+  }
+  
+  #boxes {
+      
+   text-align: center; 
+  max-width: 1200px;
+  margin: 0 auto; 
+  padding: 50px
+  
+  
+  }
+  
+  .box1 {
+      width: 200px;
+      float: left;
+      padding: 20px;
+      margin: 10px 20px;
+      border: rgb(0, 0, 0);
+      border-style: solid;
+      border-radius: 15px;
+    }
+  
+  #frf {
+      float: left;
+  }
+  
+  .yo {
+      background-color:  rgb(255, 166, 83);
+      width: 100%;
+      height: 20px; 
+      border-color: rgb(241, 117, 101);
+      border-style: solid;
+      border-radius: 5px;
+  }
+  
