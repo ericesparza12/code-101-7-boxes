@@ -14,22 +14,23 @@ body {
   #nav a {
       color: white;
       font-size: 18px;
-      
-  }
+       }
   
   #boxes {
       
    text-align: center; 
   max-width: 1200px;
   margin: 0 auto; 
-  padding: 50px
-  
-  
-  }
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+   }
   
   .box1 {
       width: 200px;
-      float: left;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
       padding: 20px;
       margin: 10px 20px;
       border: rgb(0, 0, 0);
@@ -38,8 +39,8 @@ body {
     }
   
   #frf {
-      float: left;
-  }
+  display: flex; 
+ }
   
   .yo {
       background-color:  rgb(255, 166, 83);
@@ -48,5 +49,7 @@ body {
       border-color: rgb(241, 117, 101);
       border-style: solid;
       border-radius: 5px;
+      display:flex;
+      align-items: flex-end;
   }
   
